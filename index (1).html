@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sri Harshita Kemburu | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Sri Harshita Kemburu</h1>
-        <p>Aspiring Computer Science Engineer | Passionate Learner</p>
+        <img src="harshita-profile.jpeg" alt="Sri Harshita Kemburu" class="profile-photo">
+        <h1 class="name-header">Sri Harshita Kemburu</h1>
+        <p class="tagline">Aspiring Computer Science Engineer | Passionate Learner</p>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -23,60 +27,135 @@
 
     <main>
         <section id="about">
-            <h2>About Me</h2>
-            <p>
-                Hello! I'm Sri Harshita, a highly motivated and productive 2nd-year Computer Science Engineering student 
-                at G Narayanamma Institute of Technology and Science (Shaikpet, Hyderabad). Expected to graduate in 2027, 
-                I am passionate about leveraging technology to solve problems and eager to contribute to innovative projects. 
-                I excel in balancing academics with extracurricular activities, building relationships, and delivering quality outcomes.
-            </p>
-            <p>
-                <strong>Languages:</strong> English (Upper Intermediate), Telugu (Proficient), Hindi (B1 Intermediate)
-            </p>
+            <h2 class="section-heading">About Me</h2>
+            <div class="about-content">
+                <p>
+                    Hello! I'm Sri Harshita, a highly motivated and productive 2nd-year Computer Science Engineering student
+                    at G Narayanamma Institute of Technology and Science (Shaikpet, Hyderabad). Expected to graduate in 2027,
+                    I am passionate about leveraging technology to solve problems and eager to contribute to innovative projects.
+                    I excel in balancing academics with extracurricular activities, building relationships, and delivering quality outcomes.
+                </p>
+                <p>
+                    <strong>Languages:</strong> English (Upper Intermediate), Telugu (Proficient), Hindi (B1 Intermediate)
+                </p>
+            </div>
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Problem-solving</li>
-                <li>Willingness to Learn</li>
-                <li>Basics of Database Management Systems (DBMS)</li>
-                <li>Arduino Programming</li>
-                <li>Sensor Interfacing</li>
-                <li>Project Management</li>
-                <li>Team Motivation</li>
-                <li>Client Service</li>
-                <li>Calm Under Pressure</li>
+            <h2 class="section-heading">Skills</h2>
+            <ul class="skills-list">
+                <li>
+                    <div class="skill-item">
+                        <h3>Problem-solving</h3>
+                        <p>Analytical and creative approach to finding solutions.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <h3>Willingness to Learn</h3>
+                        <p>Eager to acquire new knowledge and adapt to new technologies.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <h3>Basics of Database Management Systems (DBMS)</h3>
+                        <p>Understanding of database concepts and basic SQL.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <h3>Arduino Programming</h3>
+                        <p>Experience in programming Arduino microcontrollers.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <h3>Sensor Interfacing</h3>
+                        <p>Ability to connect and work with various sensors.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <h3>Project Management</h3>
+                        <p>Skills in planning, organizing, and executing projects.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <h3>Team Motivation</h3>
+                        <p>Ability to encourage and inspire team members.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <h3>Client Service</h3>
+                        <p>Providing excellent service and meeting client needs.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-item">
+                        <h3>Calm Under Pressure</h3>
+                        <p>Maintaining composure and focus in challenging situations.</p>
+                    </div>
+                </li>
             </ul>
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
-            <article>
-                <h3>Temperature Monitoring System</h3>
-                <p>
-                    Developed a system to monitor temperature using an Arduino and a temperature sensor. Programmed the Arduino to
-                    read temperature values and display them, focusing on understanding sensor interfacing and basic Arduino programming.
-                </p>
-                <p><strong>Technologies Used:</strong> Arduino, Sensors</p>
-            </article>
+            <h2 class="section-heading">Projects</h2>
+            <div class="project-grid">
+                <article class="project-item">
+                    <h3>Temperature Monitoring System</h3>
+                    <p>
+                        Developed a system to monitor temperature using an Arduino and a temperature sensor. Programmed the Arduino to
+                        read temperature values and display them, focusing on understanding sensor interfacing and basic Arduino programming.
+                    </p>
+                    <p><strong>Technologies Used:</strong> Arduino, Sensors</p>
+                    <img src="arduino-project.jpeg" alt="Arduino Temperature Monitoring System" class="project-image">
+                </article>
+                <article class="project-item">
+                    <h3>My First Project</h3>
+                    <p>
+                        This was my first foray into web development.  I learned HTML and CSS to create a simple webpage.
+                    </p>
+                    <p><strong>Technologies Used:</strong> HTML, CSS</p>
+                    <img src="first-project.png" alt="My First Project" class="project-image">
+                </article>
+            </div>
         </section>
 
         <section id="certifications">
-            <h2>Certifications & Achievements</h2>
-            <ul>
-                <li>DBMS Course Certified</li>
-                <li>Driving License</li>
-                <li>Participated in "Arduino Based Microcontroller Programming and Sensor Interfacing" boot camp (2025)</li>
+            <h2 class="section-heading">Certifications & Achievements</h2>
+            <ul class="certifications-list">
+                <li>
+                    <div class="certification-item">
+                        <h3>DBMS Course Certified</h3>
+                        <p>Successfully completed a course on Database Management Systems.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="certification-item">
+                        <h3>Driving License</h3>
+                        <p>Obtained a valid driving license.</p>
+                    </div>
+                </li>
+                <li>
+                     <div class="certification-item">
+                        <h3>Arduino Based Microcontroller Programming and Sensor Interfacing</h3>
+                        <p>Participated in a boot camp (2025) on Arduino programming.</p>
+                    </div>
+                </li>
             </ul>
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/ksharshita/" target="_blank">www.linkedin.com/in/ksharshita</a></p>
-            <p>Phone: +91 7382361234</p>
-            <p>Location: Hyderabad, Telangana, India, 500089</p>
+            <h2 class="section-heading">Contact</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:ksharshita1523@gmail.com">ksharshita1523@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/ksharshita/" target="_blank">www.linkedin.com/in/ksharshita</a></p>
+                <p>Phone: +91 7382361234</p>
+                <p>Location: Hyderabad, Telangana, India, 500089</p>
+            </div>
         </section>
     </main>
 
